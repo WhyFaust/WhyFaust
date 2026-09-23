@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img" aria-label="Faust — QA automation, APIs and developer tools">
+  <defs>
+    <linearGradient id="night" x2="1" y2="1"><stop stop-color="#101827"/><stop offset="1" stop-color="#1c2440"/></linearGradient>
+    <linearGradient id="accent" x2="1"><stop stop-color="#83e3c1"/><stop offset="1" stop-color="#8ba7ff"/></linearGradient>
+  </defs>
+  <rect width="960" height="220" rx="18" fill="url(#night)"/>
+  <path d="M0 176H960 M0 198H960 M720 0V220 M802 0V220 M884 0V220" stroke="#9daacc" stroke-opacity=".08"/>
+  <circle cx="840" cy="108" r="92" fill="#8ba7ff" fill-opacity=".06"/>
+  <circle cx="840" cy="108" r="62" fill="none" stroke="#83e3c1" stroke-opacity=".3" stroke-width="2"/>
+  <circle cx="840" cy="108" r="29" fill="none" stroke="#8ba7ff" stroke-opacity=".6" stroke-width="2"/>
+  <path d="M794 108h92 M840 62v92" stroke="#83e3c1" stroke-opacity=".5"/>
+  <rect x="44" y="43" width="60" height="4" rx="2" fill="url(#accent)"/>
+  <text x="44" y="111" fill="#f5f7ff" font-family="Segoe UI,Arial,sans-serif" font-size="52" font-weight="700">Faust</text>
+  <text x="47" y="153" fill="#b9c8e2" font-family="Segoe UI,Arial,sans-serif" font-size="19">QA automation  /  APIs  /  developer tools</text>
+  <text x="47" y="190" fill="#83e3c1" font-family="Consolas,monospace" font-size="14">github.com/WhyFaust</text>
+</svg>
