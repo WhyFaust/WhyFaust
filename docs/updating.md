@@ -6,7 +6,7 @@ The profile is generated from the public `WhyFaust` GitHub account. Its artwork 
 
 The **Update profile** GitHub Actions workflow checks for changes every five minutes, at minutes 2, 7, 12, and so on. It also runs when the generator, mascot source, or workflow changes on `main`, and can be started with **Run workflow** in GitHub Actions.
 
-It uses GitHub's built-in `GITHUB_TOKEN`. No personal access token, hosted statistics service, paid API, or additional Python package is required. The workflow can write this repository's contents; it does not publish through a separate external service.
+It uses GitHub's built-in `GITHUB_TOKEN`. No personal access token, hosted statistics service, or paid API is required. The application is written entirely in Rust, with dependencies fixed by Cargo.lock. The workflow can write this repository's contents; it does not publish through a separate external service.
 
 The generator fetches every source before replacing any generated file. An unsuccessful API response, missing calendar count, or incomplete calendar fails the job and leaves the previously published profile intact. Concurrent refreshes are serialized. A concurrent human edit that makes the push non-fast-forward fails safely; the next scheduled run starts from the latest `main`.
 
@@ -27,31 +27,35 @@ GitHub Actions scheduling is best effort. Runs can be delayed or dropped, GitHub
 
 The REST repository listing is paginated. A second ownership/visibility filter prevents publishing any private or other-owner repository data even if the runtime token can see more. Its count must match the public repository count returned by the user endpoint before project exclusions apply. An incomplete listing or a repository added/removed between requests fails safely; the next scheduled run tries the new state.
 
-The public profile and contribution calendar HTML are read with Python's HTML parser. The calendar's date coverage and every count are checked. If GitHub changes that HTML, the refresh fails visibly instead of inventing zero activity; update the parser after inspecting the current public markup.
+The public profile and contribution calendar HTML are parsed with Rust's scraper library. The calendar's date coverage and every count are checked. If GitHub changes that HTML, the refresh fails visibly instead of inventing zero activity; update the parser after inspecting the current public markup.
 
 ## Files and local commands
 
-- `scripts/update_profile.py` fetches and validates the public sources.
-- `scripts/render_profile.py` generates the README and theme-aware SVGs.
+- `src/collect.rs` fetches and validates the public sources.
+- `src/render.rs` generates the README and theme-aware SVGs.
+- `src/main.rs` provides the refresh, data-only, and render-only commands.
+- `Cargo.toml`, `Cargo.lock`, and `rust-toolchain.toml` define the Rust application and its build.
 - `data/profile.json` contains only the normalized public data used in the profile.
 - `assets/generated/` contains generated visuals.
 - `assets/mascot.jpg` is the approved artwork used by the renderer. When replacing the portrait, update this JPEG.
 
-Python 3.12 or newer is supported. From the repository root:
+Install the stable Rust toolchain through rustup. From the repository root:
 
 ```bash
-python3 scripts/update_profile.py
+cargo run --release --locked
 ```
 
-For a data-only refresh, use `python3 scripts/update_profile.py --fetch-only`. Without `GITHUB_TOKEN`, the public REST API's lower unauthenticated rate limit applies. The Actions job supplies its token automatically. Never commit a token to this repository.
+For a data-only refresh, use `cargo run --release --locked -- --fetch-only`. To regenerate artwork from the saved snapshot without network requests, use `cargo run --release --locked -- --render-only`. Without `GITHUB_TOKEN`, the public REST API's lower unauthenticated rate limit applies. The Actions job supplies its token automatically. Never commit a token to this repository.
 
 Edit the renderer or source artwork to change the design; manual edits to generated files are replaced on the next successful run.
 
 ## Motion
 
-The portrait has rising coffee steam and an occasional soft sheen; the terminal has a gently animated cursor. The contribution calendar uses a light sweep over active days, a staggered outline wave, and a pulse around the current day. Animation does not change dates, contribution counts, or the underlying activity colors.
+The portrait has clearly visible rising coffee steam and a repeating soft sheen; the terminal has a gently animated cursor. The contribution calendar uses a light sweep over active days, a staggered outline wave, and a pulse around the current day. Animation does not change dates, contribution counts, or the underlying activity colors.
 
 All motion is decorative and uses native SVG animation. With reduced motion enabled, animated overlays disappear and the complete static profile remains visible.
+
+The README uses only compact horizontal light/dark layouts. Each image links directly to raw.githubusercontent.com with a hash of its generated SVG content, so artwork changes receive a new cache key without GitHub's relative-URL redirect stripping the hash. The Actions workflow caches Cargo dependencies and build output for scheduled refreshes.
 
 ## Sources
 

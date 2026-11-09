@@ -7,7 +7,10 @@ on:
   push:
     branches: [main]
     paths:
-      - scripts/**
+      - src/**
+      - Cargo.toml
+      - Cargo.lock
+      - rust-toolchain.toml
       - assets/mascot.*
       - .github/workflows/update-profile.yml
 
@@ -22,17 +25,32 @@ jobs:
   update:
     if: github.repository == 'WhyFaust/WhyFaust'
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
+    env:
+      CARGO_BUILD_JOBS: 1
     steps:
       - name: Check out profile sources
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
         with:
           ref: main
           fetch-depth: 1
+      - name: Select Rust toolchain
+        id: rust
+        run: |
+          rustup toolchain install stable --profile minimal
+          printf 'version=%s\n' "$(rustc --version)" >> "$GITHUB_OUTPUT"
+      - name: Restore Rust build cache
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: |
+            ~/.cargo/registry
+            target
+          key: ${{ runner.os }}-rust-${{ steps.rust.outputs.version }}-${{ hashFiles('Cargo.lock', 'src/**') }}
+          restore-keys: ${{ runner.os }}-rust-${{ steps.rust.outputs.version }}-
       - name: Refresh public account data and artwork
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python3 scripts/update_profile.py
+        run: cargo run --release --locked
       - name: Publish changed profile files
         shell: bash
         run: |
