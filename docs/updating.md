@@ -47,6 +47,12 @@ For a data-only refresh, use `python3 scripts/update_profile.py --fetch-only`. W
 
 Edit the renderer or source artwork to change the design; manual edits to generated files are replaced on the next successful run.
 
+## Motion
+
+The portrait has rising coffee steam and an occasional soft sheen; the terminal has a gently animated cursor. The contribution calendar uses a light sweep over active days, a staggered outline wave, and a pulse around the current day. Animation does not change dates, contribution counts, or the underlying activity colors.
+
+All motion is decorative and uses native SVG animation. With reduced motion enabled, animated overlays disappear and the complete static profile remains visible.
+
 ## Sources
 
 - [GitHub profile README](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme)

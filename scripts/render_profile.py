@@ -147,6 +147,30 @@ def hero(data: dict, image: str, theme: dict, mobile: bool = False) -> str:
         f'<defs><clipPath id="portrait"><rect x="{image_x}" y="{image_y}" width="{image_size}" height="{image_size}" rx="18"/></clipPath></defs>',
         f'<image x="{image_x}" y="{image_y}" width="{image_size}" height="{image_size}" href="{image}" clip-path="url(#portrait)"/>',
     ]
+    steam_paths = (
+        "M181 424 C169 410 194 402 182 387",
+        "M205 426 C218 412 193 400 207 379",
+        "M229 429 C216 416 239 405 227 390",
+    )
+    steam = [
+        f'<path d="{path}" fill="none" stroke="#fff5e8" stroke-width="3" stroke-linecap="round" opacity="0">'
+        f'<animate attributeName="opacity" values="0;.58;.3;0" keyTimes="0;.22;.64;1" dur="6s" begin="{-index * 2}s" repeatCount="indefinite"/>'
+        f'<animateTransform attributeName="transform" type="translate" values="0 8;3 -24" dur="6s" begin="{-index * 2}s" repeatCount="indefinite"/>'
+        "</path>"
+        for index, path in enumerate(steam_paths)
+    ]
+    body.extend([
+        '<defs><linearGradient id="portrait-sheen">'
+        '<stop offset="0" stop-color="#fff5e8" stop-opacity="0"/>'
+        '<stop offset=".5" stop-color="#fff5e8" stop-opacity=".18"/>'
+        '<stop offset="1" stop-color="#fff5e8" stop-opacity="0"/>'
+        '</linearGradient></defs>',
+        f'<g class="motion" clip-path="url(#portrait)"><g transform="translate({image_x} {image_y}) scale({image_size / 640:g})">'
+        '<rect x="-240" y="0" width="200" height="640" fill="url(#portrait-sheen)" opacity="0">'
+        '<animate attributeName="x" values="-240;720;720" keyTimes="0;.32;1" dur="14s" repeatCount="indefinite"/>'
+        '<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.14;.32;1" dur="14s" repeatCount="indefinite"/>'
+        '</rect>' + "".join(steam) + '</g></g>',
+    ])
     if mobile:
         body += [
             svg_text(48, 682, "$ whoami", 22, theme["accent"], mono=True),
@@ -168,6 +192,12 @@ def hero(data: dict, image: str, theme: dict, mobile: bool = False) -> str:
             body.append(svg_text(506, 262 + i * 29, line, 22, theme["text"]))
         body.append(svg_text(506, 355, year_label, 18, theme["muted"]))
         stat_x, stat_y, stat_width, stat_height, gap = 506, 384, 206, 102, 14
+    cursor_x, cursor_y = (166, 684) if mobile else (609, 111)
+    body.append(
+        f'<rect class="motion" x="{cursor_x}" y="{cursor_y}" width="13" height="3" rx="1" fill="{theme["accent"]}">'
+        '<animate attributeName="opacity" values=".2;1;1;.2" keyTimes="0;.3;.7;1" dur="3s" repeatCount="indefinite"/>'
+        '</rect>'
+    )
     values = [
         (stats["original_repos"], "original repos"),
         (stats["total_stars"], "project stars"),
@@ -271,6 +301,8 @@ def activity(data: dict, theme: dict, mobile: bool = False) -> str:
         ]
     for weekday, label in [(1, "Mon"), (3, "Wed"), (5, "Fri")]:
         body.append(svg_text(grid_x - 15, grid_y + weekday * step + cell * 0.78, label, 18 if mobile else 13, theme["muted"], anchor="end"))
+    lit_cells = []
+    outline_wave = []
     last_month = None
     for column in range(weeks):
         week_start = start_week + timedelta(weeks=column)
@@ -278,6 +310,7 @@ def activity(data: dict, theme: dict, mobile: bool = False) -> str:
         if not mobile and month_date.month != last_month and column < weeks - 1:
             body.append(svg_text(grid_x + column * step, grid_y - 13, month_date.strftime("%b"), 13, theme["muted"]))
             last_month = month_date.month
+        outlines = []
         for weekday in range(7):
             current = week_start + timedelta(days=weekday)
             item = days.get(current)
@@ -285,18 +318,52 @@ def activity(data: dict, theme: dict, mobile: bool = False) -> str:
                 continue
             level = max(0, min(4, int(item["level"])))
             x, y = grid_x + column * step, grid_y + weekday * step
+            radius = 4 if mobile else 3
             body.append(
                 f'<g><title>{current.isoformat()}: {count(item["count"])} contributions</title>'
-                + rect(x, y, cell, cell, theme["levels"][level], 4 if mobile else 3)
+                + rect(x, y, cell, cell, theme["levels"][level], radius)
                 + "</g>"
             )
+            if int(item["count"]) > 0:
+                lit_cells.append(rect(x, y, cell, cell, "#fff", radius))
+            outlines.append(rect(x + 0.6, y + 0.6, cell - 1.2, cell - 1.2, "none", radius, theme["accent"]))
+        if outlines:
+            delay = column * 7.2 / max(1, weeks - 1)
+            outline_wave.append(
+                '<g opacity="0">'
+                + "".join(outlines)
+                + f'<animate attributeName="opacity" values="0;.38;0;0" keyTimes="0;.08;.22;1" '
+                f'begin="{delay:.3f}s" dur="12s" repeatCount="indefinite" calcMode="spline" '
+                'keySplines=".4 0 .6 1;.4 0 .6 1;0 0 1 1"/></g>'
+            )
+    grid_width = (weeks - 1) * step + cell
+    sweep_width = grid_width * 0.3
+    body.append(
+        '<defs><clipPath id="activity-lit-cells">'
+        + "".join(lit_cells)
+        + '</clipPath><linearGradient id="activity-light" x1="0" y1="0" x2="1" y2="0">'
+        '<stop offset="0" stop-color="#fff5e8" stop-opacity="0"/>'
+        '<stop offset=".5" stop-color="#fff5e8" stop-opacity=".24"/>'
+        '<stop offset="1" stop-color="#fff5e8" stop-opacity="0"/>'
+        '</linearGradient></defs>'
+    )
+    body.append(
+        '<g class="motion" clip-path="url(#activity-lit-cells)">'
+        f'<rect x="{grid_x - sweep_width:g}" y="{grid_y:g}" width="{sweep_width:g}" '
+        f'height="{6 * step + cell:g}" fill="url(#activity-light)">'
+        f'<animate attributeName="x" values="{grid_x - sweep_width:g};{grid_x + grid_width:g};{grid_x + grid_width:g}" '
+        'keyTimes="0;.85;1" dur="12s" repeatCount="indefinite" calcMode="spline" '
+        'keySplines=".4 0 .2 1;0 0 1 1"/></rect></g>'
+    )
+    body.append('<g class="motion" stroke-width="1.2">' + "".join(outline_wave) + "</g>")
     today_x = grid_x + (weeks - 1) * step
     today_y = grid_y + ((end.weekday() + 1) % 7) * step
     body.append(rect(today_x - 2, today_y - 2, cell + 4, cell + 4, "none", 5, theme["accent"]))
     body.append(
-        f'<g class="motion" opacity=".6"><circle cx="{grid_x:g}" cy="{grid_y - 7:g}" r="2" fill="{theme["accent"]}">'
-        f'<animate attributeName="cx" values="{grid_x:g};{grid_x + (weeks - 1) * step:g};{grid_x:g}" dur="36s" repeatCount="indefinite"/>'
-        "</circle></g>"
+        '<g class="motion" opacity=".12" stroke-width="2.4">'
+        + rect(today_x - 2, today_y - 2, cell + 4, cell + 4, "none", 5, theme["accent"])
+        + '<animate attributeName="opacity" values=".12;.65;.12" keyTimes="0;.5;1" '
+        'dur="8s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .6 1;.4 0 .6 1"/></g>'
     )
     legend_y = 449 if mobile else 306
     legend_x = 457 if mobile else 964
