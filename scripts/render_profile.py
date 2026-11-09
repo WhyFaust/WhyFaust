@@ -318,8 +318,6 @@ def picture(name: str, alt: str, width: str = "100%") -> str:
     path = "./assets/generated/"
     return (
         "<picture>\n"
-        f'  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="{path}{name}-mobile-dark.svg">\n'
-        f'  <source media="(max-width: 600px)" srcset="{path}{name}-mobile-light.svg">\n'
         f'  <source media="(prefers-color-scheme: dark)" srcset="{path}{name}-dark.svg">\n'
         f'  <img src="{path}{name}-light.svg" alt="{esc(alt)}" width="{width}">\n'
         "</picture>"
@@ -367,7 +365,7 @@ def readme(data: dict) -> str:
     body.extend([
         "## A year on GitHub",
         "",
-        picture("activity", f'{data["contributions"]["total"]} GitHub contributions over the last 365 days. Mobile shows the most recent 13 weeks.'),
+        picture("activity", f'{data["contributions"]["total"]} GitHub contributions over the last 365 days.'),
         "",
         '<p align="center">',
         '  <a href="https://t.me/WhyFaust_tv">AI, Python, development &amp; games — @WhyFaust_tv</a>',

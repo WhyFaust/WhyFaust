@@ -1,6 +1,4 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/generated/hero-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="./assets/generated/hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/hero-dark.svg">
   <img src="./assets/generated/hero-light.svg" alt="Faust, @WhyFaust. QA automation engineer. Python, integrations and developer tools. 19 original public repositories, 19 project stars, 10 followers." width="100%">
 </picture>
@@ -8,16 +6,12 @@
 <p align="center">
   <a href="https://t.me/WhyFaust_tv">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/generated/telegram-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="./assets/generated/telegram-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/telegram-dark.svg">
   <img src="./assets/generated/telegram-light.svg" alt="Telegram · @WhyFaust_tv" width="49%">
 </picture>
   </a>
   <a href="https://github.com/WhyFaust?tab=repositories">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/generated/repositories-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="./assets/generated/repositories-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/repositories-dark.svg">
   <img src="./assets/generated/repositories-light.svg" alt="Browse all GitHub repositories" width="49%">
 </picture>
@@ -30,8 +24,6 @@ Latest original public projects, automatically selected from GitHub.
 
 <a href="https://github.com/WhyFaust/fstack">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/generated/project-1-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="./assets/generated/project-1-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/project-1-dark.svg">
   <img src="./assets/generated/project-1-light.svg" alt="fstack. Faust stack — личный плагин Codex с инженерными навыками 0 stars." width="100%">
 </picture>
@@ -39,8 +31,6 @@ Latest original public projects, automatically selected from GitHub.
 
 <a href="https://github.com/WhyFaust/chelovechno">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/generated/project-2-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="./assets/generated/project-2-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/project-2-dark.svg">
   <img src="./assets/generated/project-2-light.svg" alt="chelovechno. Живые авторские тексты: адаптивный AI-навык для статей, писем, сценариев, описаний и постов. 0 stars." width="100%">
 </picture>
@@ -48,8 +38,6 @@ Latest original public projects, automatically selected from GitHub.
 
 <a href="https://github.com/WhyFaust/threads-mcp">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/generated/project-3-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="./assets/generated/project-3-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/project-3-dark.svg">
   <img src="./assets/generated/project-3-light.svg" alt="threads-mcp. Local MCP server for Threads: official API analytics, latest posts and guarded publishing 0 stars." width="100%">
 </picture>
@@ -57,8 +45,6 @@ Latest original public projects, automatically selected from GitHub.
 
 <a href="https://github.com/WhyFaust/codex-quota-widget">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/generated/project-4-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="./assets/generated/project-4-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/project-4-dark.svg">
   <img src="./assets/generated/project-4-light.svg" alt="codex-quota-widget. Explore this project on GitHub. 0 stars." width="100%">
 </picture>
@@ -67,10 +53,8 @@ Latest original public projects, automatically selected from GitHub.
 ## A year on GitHub
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/generated/activity-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="./assets/generated/activity-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/activity-dark.svg">
-  <img src="./assets/generated/activity-light.svg" alt="118 GitHub contributions over the last 365 days. Mobile shows the most recent 13 weeks." width="100%">
+  <img src="./assets/generated/activity-light.svg" alt="118 GitHub contributions over the last 365 days." width="100%">
 </picture>
 
 <p align="center">
