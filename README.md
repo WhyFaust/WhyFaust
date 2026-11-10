@@ -29,24 +29,24 @@ Latest original public projects, automatically selected from GitHub.
 </picture>
 </a>
 
-<a href="https://github.com/WhyFaust/chelovechno">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-2-dark.svg?v=c80545bb5438">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-2-light.svg?v=a8d194888db2" alt="chelovechno. Живые авторские тексты: адаптивный AI-навык для статей, писем, сценариев, описаний и постов. 0 stars." width="100%">
-</picture>
-</a>
-
 <a href="https://github.com/WhyFaust/threads-mcp">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-3-dark.svg?v=90ab22cd15d6">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-3-light.svg?v=dd68df86b54a" alt="threads-mcp. Local MCP server for Threads: official API analytics, latest posts and guarded publishing 0 stars." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-2-dark.svg?v=3f85f1350ae0">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-2-light.svg?v=a33401106ca5" alt="threads-mcp. Local MCP server for Threads: official API analytics, latest posts and guarded publishing 0 stars." width="100%">
 </picture>
 </a>
 
 <a href="https://github.com/WhyFaust/codex-quota-widget">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-4-dark.svg?v=1758ea2f150e">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-4-light.svg?v=902a3cece5c4" alt="codex-quota-widget. Explore this project on GitHub. 0 stars." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-3-dark.svg?v=7c279920a335">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-3-light.svg?v=801b628a4fe3" alt="codex-quota-widget. Explore this project on GitHub. 0 stars." width="100%">
+</picture>
+</a>
+
+<a href="https://github.com/WhyFaust/demo-tests">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-4-dark.svg?v=1e2914dcc257">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-4-light.svg?v=0a842bd8997e" alt="demo-tests. Example of completing a test task using Python+pytest+selenium+allure 0 stars." width="100%">
 </picture>
 </a>
 
@@ -62,6 +62,6 @@ Latest original public projects, automatically selected from GitHub.
 </p>
 
 <p align="center"><sub>
-  From GitHub, automatically. Snapshot changed 10 Nov 2026, 14:08 UTC.<br>
+  From GitHub, automatically. Snapshot changed 10 Nov 2026, 17:33 UTC.<br>
   <a href="https://github.com/WhyFaust/WhyFaust/actions/workflows/update-profile.yml">Refreshes on a 5-minute schedule</a> · GitHub may delay updates.
 </sub></p>

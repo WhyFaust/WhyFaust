@@ -1885,15 +1885,6 @@
       "url": "https://github.com/WhyFaust/fstack"
     },
     {
-      "description": "Живые авторские тексты: адаптивный AI-навык для статей, писем, сценариев, описаний и постов.",
-      "forks": 0,
-      "language": "JavaScript",
-      "name": "chelovechno",
-      "pushed_at": "2026-10-30T20:27:51Z",
-      "stars": 0,
-      "url": "https://github.com/WhyFaust/chelovechno"
-    },
-    {
       "description": "Local MCP server for Threads: official API analytics, latest posts and guarded publishing",
       "forks": 0,
       "language": "Python",
@@ -1910,6 +1901,15 @@
       "pushed_at": "2026-09-18T10:58:41Z",
       "stars": 0,
       "url": "https://github.com/WhyFaust/codex-quota-widget"
+    },
+    {
+      "description": "Example of completing a test task using Python+pytest+selenium+allure",
+      "forks": 0,
+      "language": "Python",
+      "name": "demo-tests",
+      "pushed_at": "2025-09-22T09:21:32Z",
+      "stars": 0,
+      "url": "https://github.com/WhyFaust/demo-tests"
     }
   ],
   "stats": {
@@ -1917,5 +1917,5 @@
     "total_forks": 4,
     "total_stars": 19
   },
-  "updated_at": "2026-11-10T14:08:17Z"
+  "updated_at": "2026-11-10T17:33:51Z"
 }
