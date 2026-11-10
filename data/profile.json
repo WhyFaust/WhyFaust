@@ -1822,14 +1822,14 @@
         "level": 1
       },
       {
-        "count": 4,
+        "count": 14,
         "date": "2026-11-10",
-        "level": 1
+        "level": 2
       }
     ],
     "end": "2026-11-10",
     "start": "2025-11-11",
-    "total": 125
+    "total": 135
   },
   "languages": [
     {
@@ -1845,7 +1845,12 @@
     {
       "color": "#e3b341",
       "name": "Python",
-      "repo_count": 4
+      "repo_count": 3
+    },
+    {
+      "color": "#e34c26",
+      "name": "HTML",
+      "repo_count": 2
     },
     {
       "color": "#f1e05a",
@@ -1855,11 +1860,6 @@
     {
       "color": "#9b7edb",
       "name": "CSS",
-      "repo_count": 1
-    },
-    {
-      "color": "#e34c26",
-      "name": "HTML",
       "repo_count": 1
     }
   ],
@@ -1878,9 +1878,9 @@
     {
       "description": "Faust stack — личный плагин Codex с инженерными навыками",
       "forks": 0,
-      "language": "Python",
+      "language": "HTML",
       "name": "fstack",
-      "pushed_at": "2026-11-10T12:30:38Z",
+      "pushed_at": "2026-11-10T12:59:29Z",
       "stars": 0,
       "url": "https://github.com/WhyFaust/fstack"
     },
@@ -1917,5 +1917,5 @@
     "total_forks": 4,
     "total_stars": 19
   },
-  "updated_at": "2026-11-10T12:37:59Z"
+  "updated_at": "2026-11-10T13:05:44Z"
 }

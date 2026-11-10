@@ -29,5 +29,5 @@
 <text x="964" y="432" fill="#fff5e8" font-size="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-weight="650" text-anchor="start">10</text>
 <text x="964" y="465" fill="#c5b2a3" font-size="16" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-weight="400" text-anchor="start">followers</text>
 <text x="506" y="526" fill="#c5b2a3" font-size="13" font-family="ui-monospace, SFMono-Regular, Consolas, Liberation Mono, monospace" font-weight="400" text-anchor="start">PRIMARY LANGUAGES / REPO COUNT</text>
-<text x="506" y="557" fill="#f0a17b" font-size="18" font-family="ui-monospace, SFMono-Regular, Consolas, Liberation Mono, monospace" font-weight="400" text-anchor="start">C# 6 · SourcePawn 5 · Python 4</text>
+<text x="506" y="557" fill="#f0a17b" font-size="18" font-family="ui-monospace, SFMono-Regular, Consolas, Liberation Mono, monospace" font-weight="400" text-anchor="start">C# 6 · SourcePawn 5 · Python 3</text>
 </svg>
