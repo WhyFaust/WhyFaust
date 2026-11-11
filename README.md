@@ -53,8 +53,8 @@ Latest original public projects, automatically selected from GitHub.
 ## A year on GitHub
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-dark.svg?v=383e0ca7f59f">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-light.svg?v=9a231bd01da6" alt="168 GitHub contributions over the last 365 days." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-dark.svg?v=b15f5b4ad01b">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-light.svg?v=4ab80d668cae" alt="169 GitHub contributions over the last 365 days." width="100%">
 </picture>
 
 <p align="center">
@@ -62,6 +62,6 @@ Latest original public projects, automatically selected from GitHub.
 </p>
 
 <p align="center"><sub>
-  From GitHub, automatically. Snapshot changed 11 Nov 2026, 18:23 UTC.<br>
+  From GitHub, automatically. Snapshot changed 11 Nov 2026, 18:38 UTC.<br>
   <a href="https://github.com/WhyFaust/WhyFaust/actions/workflows/update-profile.yml">Refreshes on a 5-minute schedule</a> · GitHub may delay updates.
 </sub></p>
