@@ -24,8 +24,8 @@ Latest original public projects, automatically selected from GitHub.
 
 <a href="https://github.com/WhyFaust/fstack">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-dark.svg?v=13e031f71300">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-light.svg?v=667ad18daba9" alt="fstack. Faust stack — личный плагин Codex с инженерными навыками 0 stars." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-dark.svg?v=efabc784ddca">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-light.svg?v=0d92837b7131" alt="fstack. Faust stack — личный плагин Codex с инженерными навыками 0 stars." width="100%">
 </picture>
 </a>
 
@@ -53,8 +53,8 @@ Latest original public projects, automatically selected from GitHub.
 ## A year on GitHub
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-dark.svg?v=540c559ddae1">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-light.svg?v=052fc7040ed0" alt="200 GitHub contributions over the last 365 days." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-dark.svg?v=2f7aa0d95ae6">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-light.svg?v=12bccaf65ebb" alt="201 GitHub contributions over the last 365 days." width="100%">
 </picture>
 
 <p align="center">
@@ -62,6 +62,6 @@ Latest original public projects, automatically selected from GitHub.
 </p>
 
 <p align="center"><sub>
-  From GitHub, automatically. Snapshot changed 13 Nov 2026, 00:30 UTC.<br>
+  From GitHub, automatically. Snapshot changed 13 Nov 2026, 04:50 UTC.<br>
   <a href="https://github.com/WhyFaust/WhyFaust/actions/workflows/update-profile.yml">Refreshes on a 5-minute schedule</a> · GitHub may delay updates.
 </sub></p>
