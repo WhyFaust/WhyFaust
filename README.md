@@ -24,8 +24,8 @@ Latest original public projects, automatically selected from GitHub.
 
 <a href="https://github.com/WhyFaust/fstack">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-dark.svg?v=c252edefaf91">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-light.svg?v=fcc906b46f34" alt="fstack. Faust stack — личный плагин Codex с инженерными навыками 1 stars." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-dark.svg?v=a3eafd84405f">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-light.svg?v=ec04f6fc7164" alt="fstack. Faust stack — личный плагин Codex с инженерными навыками 1 stars." width="100%">
 </picture>
 </a>
 
@@ -62,6 +62,6 @@ Latest original public projects, automatically selected from GitHub.
 </p>
 
 <p align="center"><sub>
-  From GitHub, automatically. Snapshot changed 15 Nov 2026, 00:11 UTC.<br>
+  From GitHub, automatically. Snapshot changed 15 Nov 2026, 07:20 UTC.<br>
   <a href="https://github.com/WhyFaust/WhyFaust/actions/workflows/update-profile.yml">Refreshes on a 5-minute schedule</a> · GitHub may delay updates.
 </sub></p>
