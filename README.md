@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/hero-dark.svg?v=75f13bfaf67d">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/hero-light.svg?v=74116d647825" alt="Faust, @WhyFaust. QA automation engineer. Python, integrations and developer tools. 19 original public repositories, 20 project stars, 10 followers." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/hero-dark.svg?v=ba998bb1bf6b">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/hero-light.svg?v=6f49ddee072c" alt="Faust, @WhyFaust. QA automation engineer. Python, integrations and developer tools. 19 original public repositories, 21 project stars, 10 followers." width="100%">
 </picture>
 
 <p align="center">
@@ -24,8 +24,8 @@ Latest original public projects, automatically selected from GitHub.
 
 <a href="https://github.com/WhyFaust/fstack">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-dark.svg?v=c097c3714247">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-light.svg?v=aa73003a7039" alt="fstack. Faust stack — личный плагин Codex с инженерными навыками 1 stars." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-dark.svg?v=07198a66b5d7">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-light.svg?v=0ed70cb57b5a" alt="fstack. Faust stack — личный плагин Codex с инженерными навыками 2 stars." width="100%">
 </picture>
 </a>
 
@@ -62,6 +62,6 @@ Latest original public projects, automatically selected from GitHub.
 </p>
 
 <p align="center"><sub>
-  From GitHub, automatically. Snapshot changed 16 Nov 2026, 19:34 UTC.<br>
+  From GitHub, automatically. Snapshot changed 16 Nov 2026, 20:20 UTC.<br>
   <a href="https://github.com/WhyFaust/WhyFaust/actions/workflows/update-profile.yml">Refreshes on a 5-minute schedule</a> · GitHub may delay updates.
 </sub></p>
