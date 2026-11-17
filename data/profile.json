@@ -1881,6 +1881,15 @@
   },
   "projects": [
     {
+      "description": "Faust stack — личный плагин Codex с инженерными навыками",
+      "forks": 0,
+      "language": "Rust",
+      "name": "fstack",
+      "pushed_at": "2026-11-17T15:44:44Z",
+      "stars": 2,
+      "url": "https://github.com/WhyFaust/fstack"
+    },
+    {
       "description": "Local MCP server for Threads: official API analytics, latest posts and guarded publishing",
       "forks": 0,
       "language": "Python",
@@ -1888,15 +1897,6 @@
       "pushed_at": "2026-11-17T15:19:40Z",
       "stars": 0,
       "url": "https://github.com/WhyFaust/threads-mcp"
-    },
-    {
-      "description": "Faust stack — личный плагин Codex с инженерными навыками",
-      "forks": 0,
-      "language": "Rust",
-      "name": "fstack",
-      "pushed_at": "2026-11-17T14:52:33Z",
-      "stars": 2,
-      "url": "https://github.com/WhyFaust/fstack"
     },
     {
       "description": "",
@@ -1922,5 +1922,5 @@
     "total_forks": 4,
     "total_stars": 21
   },
-  "updated_at": "2026-11-17T15:24:06Z"
+  "updated_at": "2026-11-17T15:50:45Z"
 }
