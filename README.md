@@ -22,17 +22,17 @@
 
 Latest original public projects, automatically selected from GitHub.
 
-<a href="https://github.com/WhyFaust/fstack">
+<a href="https://github.com/WhyFaust/threads-mcp">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-dark.svg?v=6caf3dda24d6">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-light.svg?v=4f0157924478" alt="fstack. Faust stack — личный плагин Codex с инженерными навыками 2 stars." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-dark.svg?v=17bc5c145a8b">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-light.svg?v=afc39f8c8b5f" alt="threads-mcp. Local MCP server for Threads: official API analytics, latest posts and guarded publishing 0 stars." width="100%">
 </picture>
 </a>
 
-<a href="https://github.com/WhyFaust/threads-mcp">
+<a href="https://github.com/WhyFaust/fstack">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-2-dark.svg?v=3f85f1350ae0">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-2-light.svg?v=a33401106ca5" alt="threads-mcp. Local MCP server for Threads: official API analytics, latest posts and guarded publishing 0 stars." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-2-dark.svg?v=f3bd68f55dab">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-2-light.svg?v=a034e7df1d62" alt="fstack. Faust stack — личный плагин Codex с инженерными навыками 2 stars." width="100%">
 </picture>
 </a>
 
@@ -53,8 +53,8 @@ Latest original public projects, automatically selected from GitHub.
 ## A year on GitHub
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-dark.svg?v=98d991383960">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-light.svg?v=bb64629b24ef" alt="238 GitHub contributions over the last 365 days." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-dark.svg?v=6f334a2f17e2">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-light.svg?v=079f4ddc87df" alt="239 GitHub contributions over the last 365 days." width="100%">
 </picture>
 
 <p align="center">
@@ -62,6 +62,6 @@ Latest original public projects, automatically selected from GitHub.
 </p>
 
 <p align="center"><sub>
-  From GitHub, automatically. Snapshot changed 17 Nov 2026, 14:56 UTC.<br>
+  From GitHub, automatically. Snapshot changed 17 Nov 2026, 15:24 UTC.<br>
   <a href="https://github.com/WhyFaust/WhyFaust/actions/workflows/update-profile.yml">Refreshes on a 5-minute schedule</a> · GitHub may delay updates.
 </sub></p>
