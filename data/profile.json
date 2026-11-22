@@ -1881,6 +1881,15 @@
   },
   "projects": [
     {
+      "description": "Локальная память агентов на Rust: Obsidian, надёжная запись и гибридный поиск",
+      "forks": 0,
+      "language": "",
+      "name": "fmem",
+      "pushed_at": "2026-11-22T15:02:57Z",
+      "stars": 0,
+      "url": "https://github.com/WhyFaust/fmem"
+    },
+    {
       "description": "Faust stack — личный плагин Codex с инженерными навыками",
       "forks": 0,
       "language": "Rust",
@@ -1888,15 +1897,6 @@
       "pushed_at": "2026-11-22T14:20:04Z",
       "stars": 2,
       "url": "https://github.com/WhyFaust/fstack"
-    },
-    {
-      "description": "Локальная память агентов на Rust: Obsidian, надёжная запись и гибридный поиск",
-      "forks": 0,
-      "language": "",
-      "name": "fmem",
-      "pushed_at": "2026-11-22T13:01:06Z",
-      "stars": 0,
-      "url": "https://github.com/WhyFaust/fmem"
     },
     {
       "description": "Local MCP server for Threads: official API analytics, latest posts and guarded publishing",
@@ -1922,5 +1922,5 @@
     "total_forks": 4,
     "total_stars": 21
   },
-  "updated_at": "2026-11-22T14:25:02Z"
+  "updated_at": "2026-11-22T15:03:37Z"
 }
