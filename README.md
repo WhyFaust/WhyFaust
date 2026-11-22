@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/hero-dark.svg?v=ba998bb1bf6b">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/hero-light.svg?v=6f49ddee072c" alt="Faust, @WhyFaust. QA automation engineer. Python, integrations and developer tools. 19 original public repositories, 21 project stars, 10 followers." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/hero-dark.svg?v=b719ca01fd41">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/hero-light.svg?v=1fb04e5aa73e" alt="Faust, @WhyFaust. QA automation engineer. Python, integrations and developer tools. 20 original public repositories, 21 project stars, 10 followers." width="100%">
 </picture>
 
 <p align="center">
@@ -22,39 +22,39 @@
 
 Latest original public projects, automatically selected from GitHub.
 
+<a href="https://github.com/WhyFaust/fmem">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-dark.svg?v=292a03b9b78b">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-light.svg?v=0b2b362e88d4" alt="fmem. Локальная память агентов на Rust: Obsidian, надёжная запись и гибридный поиск 0 stars." width="100%">
+</picture>
+</a>
+
 <a href="https://github.com/WhyFaust/fstack">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-dark.svg?v=aab1571cff50">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-light.svg?v=543a70d5c029" alt="fstack. Faust stack — личный плагин Codex с инженерными навыками 2 stars." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-2-dark.svg?v=67d16082bc53">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-2-light.svg?v=3d098de0d457" alt="fstack. Faust stack — личный плагин Codex с инженерными навыками 2 stars." width="100%">
 </picture>
 </a>
 
 <a href="https://github.com/WhyFaust/threads-mcp">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-2-dark.svg?v=f58bf9148a97">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-2-light.svg?v=18ed15c63067" alt="threads-mcp. Local MCP server for Threads: official API analytics, latest posts and guarded publishing 0 stars." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-3-dark.svg?v=629070b52584">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-3-light.svg?v=6b05a8d46ea6" alt="threads-mcp. Local MCP server for Threads: official API analytics, latest posts and guarded publishing 0 stars." width="100%">
 </picture>
 </a>
 
 <a href="https://github.com/WhyFaust/codex-quota-widget">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-3-dark.svg?v=7c279920a335">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-3-light.svg?v=801b628a4fe3" alt="codex-quota-widget. Explore this project on GitHub. 0 stars." width="100%">
-</picture>
-</a>
-
-<a href="https://github.com/WhyFaust/demo-tests">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-4-dark.svg?v=1e2914dcc257">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-4-light.svg?v=0a842bd8997e" alt="demo-tests. Example of completing a test task using Python+pytest+selenium+allure 0 stars." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-4-dark.svg?v=1758ea2f150e">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-4-light.svg?v=902a3cece5c4" alt="codex-quota-widget. Explore this project on GitHub. 0 stars." width="100%">
 </picture>
 </a>
 
 ## A year on GitHub
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-dark.svg?v=ce0fcf6a36ca">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-light.svg?v=50b815d1cb20" alt="301 GitHub contributions over the last 365 days." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-dark.svg?v=23b93b94c061">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/activity-light.svg?v=941232f44ed1" alt="303 GitHub contributions over the last 365 days." width="100%">
 </picture>
 
 <p align="center">
@@ -62,6 +62,6 @@ Latest original public projects, automatically selected from GitHub.
 </p>
 
 <p align="center"><sub>
-  From GitHub, automatically. Snapshot changed 22 Nov 2026, 11:13 UTC.<br>
+  From GitHub, automatically. Snapshot changed 22 Nov 2026, 12:20 UTC.<br>
   <a href="https://github.com/WhyFaust/WhyFaust/actions/workflows/update-profile.yml">Refreshes on a 5-minute schedule</a> · GitHub may delay updates.
 </sub></p>

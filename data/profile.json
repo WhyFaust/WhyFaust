@@ -1822,14 +1822,14 @@
         "level": 2
       },
       {
-        "count": 8,
+        "count": 10,
         "date": "2026-11-22",
-        "level": 1
+        "level": 2
       }
     ],
     "end": "2026-11-22",
     "start": "2025-11-23",
-    "total": 301
+    "total": 303
   },
   "languages": [
     {
@@ -1876,10 +1876,19 @@
     "location": "",
     "login": "WhyFaust",
     "name": "Faust",
-    "public_repos": 40,
+    "public_repos": 41,
     "url": "https://github.com/WhyFaust"
   },
   "projects": [
+    {
+      "description": "Локальная память агентов на Rust: Obsidian, надёжная запись и гибридный поиск",
+      "forks": 0,
+      "language": "",
+      "name": "fmem",
+      "pushed_at": "2026-11-22T12:20:44Z",
+      "stars": 0,
+      "url": "https://github.com/WhyFaust/fmem"
+    },
     {
       "description": "Faust stack — личный плагин Codex с инженерными навыками",
       "forks": 0,
@@ -1906,21 +1915,12 @@
       "pushed_at": "2026-09-18T10:58:41Z",
       "stars": 0,
       "url": "https://github.com/WhyFaust/codex-quota-widget"
-    },
-    {
-      "description": "Example of completing a test task using Python+pytest+selenium+allure",
-      "forks": 0,
-      "language": "Python",
-      "name": "demo-tests",
-      "pushed_at": "2025-09-22T09:21:32Z",
-      "stars": 0,
-      "url": "https://github.com/WhyFaust/demo-tests"
     }
   ],
   "stats": {
-    "original_repos": 19,
+    "original_repos": 20,
     "total_forks": 4,
     "total_stars": 21
   },
-  "updated_at": "2026-11-22T11:13:21Z"
+  "updated_at": "2026-11-22T12:20:55Z"
 }
