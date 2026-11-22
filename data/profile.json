@@ -1848,13 +1848,13 @@
       "repo_count": 3
     },
     {
-      "color": "#f1e05a",
-      "name": "JavaScript",
+      "color": "#e34c26",
+      "name": "HTML",
       "repo_count": 2
     },
     {
-      "color": "#dea584",
-      "name": "Rust",
+      "color": "#f1e05a",
+      "name": "JavaScript",
       "repo_count": 2
     },
     {
@@ -1863,8 +1863,8 @@
       "repo_count": 1
     },
     {
-      "color": "#e34c26",
-      "name": "HTML",
+      "color": "#dea584",
+      "name": "Rust",
       "repo_count": 1
     }
   ],
@@ -1892,7 +1892,7 @@
     {
       "description": "Faust stack — личный плагин Codex с инженерными навыками",
       "forks": 0,
-      "language": "Rust",
+      "language": "HTML",
       "name": "fstack",
       "pushed_at": "2026-11-22T16:19:13Z",
       "stars": 2,
@@ -1922,5 +1922,5 @@
     "total_forks": 4,
     "total_stars": 21
   },
-  "updated_at": "2026-11-22T16:33:04Z"
+  "updated_at": "2026-11-22T17:07:33Z"
 }
