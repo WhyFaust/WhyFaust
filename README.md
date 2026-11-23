@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/hero-dark.svg?v=9b80029b6f26">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/hero-light.svg?v=a082a1ec731b" alt="Faust, @WhyFaust. QA automation engineer. Python, integrations and developer tools. 22 original public repositories, 21 project stars, 10 followers." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/hero-dark.svg?v=1f40f7179d94">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/hero-light.svg?v=da30d8c9c68d" alt="Faust, @WhyFaust. QA automation engineer. Python, integrations and developer tools. 22 original public repositories, 21 project stars, 10 followers." width="100%">
 </picture>
 
 <p align="center">
@@ -24,8 +24,8 @@ Latest original public projects, automatically selected from GitHub.
 
 <a href="https://github.com/WhyFaust/obsidian-close-to-tray">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-dark.svg?v=050ca512ffcf">
-  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-light.svg?v=0b0480533655" alt="obsidian-close-to-tray. Explore this project on GitHub. 0 stars." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-dark.svg?v=2a34eaa47c0b">
+  <img src="https://raw.githubusercontent.com/WhyFaust/WhyFaust/main/assets/generated/project-1-light.svg?v=af9ee6c7dacd" alt="obsidian-close-to-tray. Explore this project on GitHub. 0 stars." width="100%">
 </picture>
 </a>
 
@@ -62,6 +62,6 @@ Latest original public projects, automatically selected from GitHub.
 </p>
 
 <p align="center"><sub>
-  From GitHub, automatically. Snapshot changed 23 Nov 2026, 07:45 UTC.<br>
+  From GitHub, automatically. Snapshot changed 23 Nov 2026, 08:44 UTC.<br>
   <a href="https://github.com/WhyFaust/WhyFaust/actions/workflows/update-profile.yml">Refreshes on a 5-minute schedule</a> · GitHub may delay updates.
 </sub></p>

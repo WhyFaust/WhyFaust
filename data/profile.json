@@ -1845,7 +1845,7 @@
     {
       "color": "#f1e05a",
       "name": "JavaScript",
-      "repo_count": 3
+      "repo_count": 4
     },
     {
       "color": "#e3b341",
@@ -1866,11 +1866,6 @@
       "color": "#dea584",
       "name": "Rust",
       "repo_count": 1
-    },
-    {
-      "color": "#3178c6",
-      "name": "TypeScript",
-      "repo_count": 1
     }
   ],
   "profile": {
@@ -1888,7 +1883,7 @@
     {
       "description": "",
       "forks": 0,
-      "language": "TypeScript",
+      "language": "JavaScript",
       "name": "obsidian-close-to-tray",
       "pushed_at": "2026-11-23T07:44:36Z",
       "stars": 0,
@@ -1927,5 +1922,5 @@
     "total_forks": 4,
     "total_stars": 21
   },
-  "updated_at": "2026-11-23T07:45:53Z"
+  "updated_at": "2026-11-23T08:44:08Z"
 }
