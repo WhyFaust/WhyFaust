@@ -1822,14 +1822,14 @@
         "level": 4
       },
       {
-        "count": 6,
+        "count": 7,
         "date": "2026-11-23",
         "level": 1
       }
     ],
     "end": "2026-11-23",
     "start": "2025-11-24",
-    "total": 330
+    "total": 331
   },
   "languages": [
     {
@@ -1890,7 +1890,7 @@
       "forks": 0,
       "language": "TypeScript",
       "name": "obsidian-close-to-tray",
-      "pushed_at": "2026-11-23T07:20:21Z",
+      "pushed_at": "2026-11-23T07:38:09Z",
       "stars": 0,
       "url": "https://github.com/WhyFaust/obsidian-close-to-tray"
     },
@@ -1927,5 +1927,5 @@
     "total_forks": 4,
     "total_stars": 21
   },
-  "updated_at": "2026-11-23T07:26:45Z"
+  "updated_at": "2026-11-23T07:39:51Z"
 }
