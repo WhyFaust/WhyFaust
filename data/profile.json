@@ -1822,14 +1822,14 @@
         "level": 4
       },
       {
-        "count": 9,
+        "count": 10,
         "date": "2026-11-23",
-        "level": 1
+        "level": 2
       }
     ],
     "end": "2026-11-23",
     "start": "2025-11-24",
-    "total": 333
+    "total": 334
   },
   "languages": [
     {
@@ -1881,6 +1881,15 @@
   },
   "projects": [
     {
+      "description": "Faust stack — личный плагин Codex с инженерными навыками",
+      "forks": 0,
+      "language": "HTML",
+      "name": "fstack",
+      "pushed_at": "2026-11-23T09:43:57Z",
+      "stars": 2,
+      "url": "https://github.com/WhyFaust/fstack"
+    },
+    {
       "description": "",
       "forks": 0,
       "language": "JavaScript",
@@ -1899,15 +1908,6 @@
       "url": "https://github.com/WhyFaust/obsidian-start-in-tray"
     },
     {
-      "description": "Faust stack — личный плагин Codex с инженерными навыками",
-      "forks": 0,
-      "language": "HTML",
-      "name": "fstack",
-      "pushed_at": "2026-11-23T06:58:16Z",
-      "stars": 2,
-      "url": "https://github.com/WhyFaust/fstack"
-    },
-    {
       "description": "Локальная память агентов на Rust: Obsidian, надёжная запись и гибридный поиск",
       "forks": 0,
       "language": "Rust",
@@ -1922,5 +1922,5 @@
     "total_forks": 4,
     "total_stars": 21
   },
-  "updated_at": "2026-11-23T08:44:08Z"
+  "updated_at": "2026-11-23T09:47:08Z"
 }
