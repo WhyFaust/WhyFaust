@@ -1822,14 +1822,14 @@
         "level": 4
       },
       {
-        "count": 0,
+        "count": 6,
         "date": "2026-11-23",
-        "level": 0
+        "level": 1
       }
     ],
     "end": "2026-11-23",
     "start": "2025-11-24",
-    "total": 324
+    "total": 330
   },
   "languages": [
     {
@@ -1843,6 +1843,11 @@
       "repo_count": 5
     },
     {
+      "color": "#f1e05a",
+      "name": "JavaScript",
+      "repo_count": 3
+    },
+    {
       "color": "#e3b341",
       "name": "Python",
       "repo_count": 3
@@ -1850,11 +1855,6 @@
     {
       "color": "#e34c26",
       "name": "HTML",
-      "repo_count": 2
-    },
-    {
-      "color": "#f1e05a",
-      "name": "JavaScript",
       "repo_count": 2
     },
     {
@@ -1866,6 +1866,11 @@
       "color": "#dea584",
       "name": "Rust",
       "repo_count": 1
+    },
+    {
+      "color": "#3178c6",
+      "name": "TypeScript",
+      "repo_count": 1
     }
   ],
   "profile": {
@@ -1876,10 +1881,28 @@
     "location": "",
     "login": "WhyFaust",
     "name": "Faust",
-    "public_repos": 41,
+    "public_repos": 43,
     "url": "https://github.com/WhyFaust"
   },
   "projects": [
+    {
+      "description": "",
+      "forks": 0,
+      "language": "TypeScript",
+      "name": "obsidian-close-to-tray",
+      "pushed_at": "2026-11-23T07:20:21Z",
+      "stars": 0,
+      "url": "https://github.com/WhyFaust/obsidian-close-to-tray"
+    },
+    {
+      "description": "",
+      "forks": 0,
+      "language": "JavaScript",
+      "name": "obsidian-start-in-tray",
+      "pushed_at": "2026-11-23T07:19:59Z",
+      "stars": 0,
+      "url": "https://github.com/WhyFaust/obsidian-start-in-tray"
+    },
     {
       "description": "Faust stack — личный плагин Codex с инженерными навыками",
       "forks": 0,
@@ -1897,30 +1920,12 @@
       "pushed_at": "2026-11-22T16:31:01Z",
       "stars": 0,
       "url": "https://github.com/WhyFaust/fmem"
-    },
-    {
-      "description": "Local MCP server for Threads: official API analytics, latest posts and guarded publishing",
-      "forks": 0,
-      "language": "Python",
-      "name": "threads-mcp",
-      "pushed_at": "2026-11-17T15:19:40Z",
-      "stars": 0,
-      "url": "https://github.com/WhyFaust/threads-mcp"
-    },
-    {
-      "description": "",
-      "forks": 0,
-      "language": "JavaScript",
-      "name": "codex-quota-widget",
-      "pushed_at": "2026-09-18T10:58:41Z",
-      "stars": 0,
-      "url": "https://github.com/WhyFaust/codex-quota-widget"
     }
   ],
   "stats": {
-    "original_repos": 20,
+    "original_repos": 22,
     "total_forks": 4,
     "total_stars": 21
   },
-  "updated_at": "2026-11-23T07:00:17Z"
+  "updated_at": "2026-11-23T07:26:45Z"
 }
